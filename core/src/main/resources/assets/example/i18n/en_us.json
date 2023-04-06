@@ -1,9 +1,12 @@
 {
-  "example": {
+  "chatcopyaddon": {
     "settings": {
-      "name": "ExampleAddon",
+      "name": "ChatCopyAddon",
       "enabled": {
         "name": "Enabled"
+      },
+      "copyPlayerName": {
+        "name": "Copy Player Name"
       }
     }
   }

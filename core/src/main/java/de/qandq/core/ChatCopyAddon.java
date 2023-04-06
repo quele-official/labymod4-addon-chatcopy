@@ -1,8 +1,8 @@
-package org.example.core;
+package de.qandq.core;
 
+import de.qandq.core.listener.ChatListener;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.models.addon.annotation.AddonMain;
-import org.example.core.listener.ChatListener;
 
 @AddonMain
 public class ChatCopyAddon extends LabyAddon<ChatCopyConfiguration> {

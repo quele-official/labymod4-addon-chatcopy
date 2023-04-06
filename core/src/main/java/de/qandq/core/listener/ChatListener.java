@@ -1,17 +1,13 @@
-package org.example.core.listener;
+package de.qandq.core.listener;
 
 import net.labymod.api.client.chat.ChatMessage;
 import net.labymod.api.client.component.Component;
 import net.labymod.api.client.component.event.ClickEvent;
 import net.labymod.api.client.component.format.NamedTextColor;
-import net.labymod.api.client.component.format.TextColor;
-import net.labymod.api.client.component.serializer.legacy.LegacyComponentSerializer;
 import net.labymod.api.event.Subscribe;
 import net.labymod.api.event.client.chat.ChatReceiveEvent;
-import org.example.core.ChatCopyAddon;
-import org.example.core.ChatCopyConfiguration;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import de.qandq.core.ChatCopyAddon;
+import de.qandq.core.ChatCopyConfiguration;
 
 public class ChatListener {
 
